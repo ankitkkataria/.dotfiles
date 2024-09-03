@@ -1,0 +1,14 @@
+---
+"editor_view:cut_word_left": none
+"pane_group:add_down": none
+"workspace:close_tabs_right_active_tab": none
+"editor:delete_word_left": ctrl-backspace
+"workspace:new_tab": ctrl-t
+"workspace:close_active_tab": ctrl-w
+"editor_view:cut_word_right": none
+"code_view:save": none
+"app:reopen_closed_session": ctrl-shift-T
+"pane_group:close_current_session": ctrl-w
+"workspace:close_window": ctrl-shift-!
+"workspace:close_other_tabs": ctrl-shift-W
+"pane_group:add_right": ctrl-s
