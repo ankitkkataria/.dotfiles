@@ -104,6 +104,15 @@ setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
 
 eval "$(zoxide init --cmd cd zsh)"
+# confirm before overwriting something
+alias cp="cp -i"
+alias mv='mv -i'
+alias rm='rm -i'
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+export PATH="$PATH:~/.local/bin/"
 
 alias ls="eza --icons --group-directories-first"
 alias tree="eza --tree --dirsfirst --group"
@@ -111,8 +120,6 @@ alias cat="batcat"
 alias fs="eza --icons --group-directories-first --tree"
 alias pkill='ps -ef | fzf | awk "{print \$2}" | xargs kill -9'
 alias ll="eza --icons --group-directories-first -l"
-
-export PATH="$PATH:~/.local/bin/"
 
 # Some useful functions
 copyLine () {
