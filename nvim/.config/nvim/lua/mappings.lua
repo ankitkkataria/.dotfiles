@@ -67,3 +67,12 @@ vim.api.nvim_set_keymap('n', '<leader>sc', ':close<CR>', { noremap = true, silen
 
 -- For joining two lines
 vim.api.nvim_set_keymap('n', '<leader>j', 'J', { noremap = true, silent = true })
+
+-- nvimtree
+vim.keymap.set("n", "<C-b>", "<cmd>NvimTreeToggle<CR>", { desc = "nvimtree toggle window" })
+vim.keymap.set("n", "<leader>e", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
+
+-- toggleable
+vim.keymap.set({ "n", "t" }, "<C-n>", function()
+  require("nvchad.term").toggle { pos = "vsp", id = "vtoggleTerm" }
+end, { desc = "terminal toggleable vertical term" })

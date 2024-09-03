@@ -1,14 +1,14 @@
-[22:49:46.701][info] [#0:/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: Lua Lsp startup, root: 	/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec
-[22:49:46.701][info] [#0:/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: ROOT:	/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec
-[22:49:46.701][info] [#0:/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: LOGPATH:	/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/log
-[22:49:46.701][info] [#0:/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: METAPATH:	/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
-[22:49:46.701][info] [#0:/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: VERSION:	3.10.4
-[22:49:46.732][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
-[22:49:46.732][info] [#0:script/service/service.lua:146]: 
+[23:17:54.999][info] [#0:/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:68]: Lua Lsp startup, root: 	/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec
+[23:17:54.999][info] [#0:/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:69]: ROOT:	/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec
+[23:17:54.999][info] [#0:/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:70]: LOGPATH:	/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/log
+[23:17:54.999][info] [#0:/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:71]: METAPATH:	/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/meta
+[23:17:54.999][info] [#0:/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/main.lua:72]: VERSION:	3.10.4
+[23:17:55.030][info] [#0:script/proto/proto.lua:234]: Listen Mode: stdio
+[23:17:55.031][info] [#0:script/service/service.lua:146]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
-        Total: 2.237 MB
-        # 00 : 2.237 MB
+        Total: 2.230 MB
+        # 00 : 2.230 MB
         # 01 : 0.000 MB
         # 02 : 0.000 MB
         # 03 : 0.000 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[22:49:46.738][info] [#0:script/client.lua:657]: Client init	{
+[23:17:55.036][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       positionEncodings = { "utf-16" }
@@ -213,17 +213,17 @@
     version = "0.11.0-dev"
   },
   initializationOptions = {},
-  processId = 34153,
-  rootPath = "/home/ankit/.local/share/nvim/lazy/NvChad",
-  rootUri = "file:///home/ankit/.local/share/nvim/lazy/NvChad",
+  processId = 70005,
+  rootPath = "/home/ankit/.dotfiles/nvim/.local/share/nvim/lazy/ui",
+  rootUri = "file:///home/ankit/.dotfiles/nvim/.local/share/nvim/lazy/ui",
   trace = "off",
   workDoneToken = "1",
   workspaceFolders = { {
-      name = "/home/ankit/.local/share/nvim/lazy/NvChad",
-      uri = "file:///home/ankit/.local/share/nvim/lazy/NvChad"
+      name = "/home/ankit/.dotfiles/nvim/.local/share/nvim/lazy/ui",
+      uri = "file:///home/ankit/.dotfiles/nvim/.local/share/nvim/lazy/ui"
     } }
 }
-[22:49:46.738][info] [#0:script/language.lua:137]: VSC language: nil
-[22:49:46.738][info] [#0:script/language.lua:138]: LS  language: en-us
-[22:49:46.738][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/ankit/.local/share/nvim/lazy/NvChad
-[22:49:46.738][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/ankit/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_ankit_.local_share_nvim_lazy_NvChad.log
+[23:17:55.036][info] [#0:script/language.lua:137]: VSC language: nil
+[23:17:55.036][info] [#0:script/language.lua:138]: LS  language: en-us
+[23:17:55.036][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/ankit/.dotfiles/nvim/.local/share/nvim/lazy/ui
+[23:17:55.036][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/ankit/.dotfiles/nvim/.local/share/nvim/mason/packages/lua-language-server/libexec/log/file_home_ankit_.dotfiles_nvim_.local_share_nvim_lazy_ui.log
